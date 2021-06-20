@@ -35,6 +35,14 @@ public class Student {
         this.dob = dob;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public Student(String name, String email, LocalDate dob) {
         this.name = name;
         this.email = email;
